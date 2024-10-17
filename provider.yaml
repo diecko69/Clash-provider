@@ -1,0 +1,29 @@
+proxies:
+  - name: ctb
+    server: quiz.int.vidio.com
+    port: 443
+    type: vless
+    uuid: 93a6c7d1-a8a0-48d9-a374-29579385bc19
+    tls: true
+    servername: satu.trustissue.my.id
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: satu.trustissue.my.id
+  - name: ctb IP
+    server: 104.22.5.240
+    port: 443
+    type: vless
+    uuid: 93a6c7d1-a8a0-48d9-a374-29579385bc19
+    tls: true
+    servername: satu.trustissue.my.id
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: satu.trustissue.my.id
